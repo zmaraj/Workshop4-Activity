@@ -23,3 +23,13 @@ greetBtn.addEventListener("click", () => {
 clearBtn.addEventListener("click", () => {
   output.textContent = "Output will appear here.";
 });
+
+// Returning Active
+statusBtn.addEventListener("click", () => {
+  statusText.textContent = "Active.";
+})
+
+//Changing Title Text
+changeTitleBtn.addEventListener("click", () => {
+  title.textContent = "Your mom";
+})
