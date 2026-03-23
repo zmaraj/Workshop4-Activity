@@ -28,3 +28,8 @@ clearBtn.addEventListener("click", () => {
 statusBtn.addEventListener("click", () => {
   statusText.textContent = "Active.";
 })
+
+//Changing Title Text
+changeTitleBtn.addEventListener("click", () => {
+  title.textContent = "Your mom";
+})
