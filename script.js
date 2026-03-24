@@ -31,6 +31,28 @@ const switchGreen = document.getElementById("switchGreen");
 const switchPurple = document.getElementById("switchPurple");
 const switchOrange = document.getElementById("switchOrange");
 
+
+switchRed.addEventListener("click", () => {
+    title.style.color = "red";
+});
+switchBlue.addEventListener("click", () => {
+    title.style.color = "blue";
+});
+switchGreen.addEventListener("click", () => {
+    title.style.color = "green";
+});
+switchPurple.addEventListener("click", () => {
+    title.style.color = "purple";
+});
+switchOrange.addEventListener("click", () => {
+    title.style.color = "orange";
+});
+
+
+
+
+
+
 // STARTER EXAMPLES
 
 // Helper: trim whitespace from a name
