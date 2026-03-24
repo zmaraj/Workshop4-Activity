@@ -39,7 +39,7 @@ const formatName = (name) => name.trim();
 // Greet button — already working as a starter example
 greetBtn.addEventListener("click", () => {
   const name = formatName(nameInput.value) || "World";
-  output.textContent = `Hello, ${name}!`;
+  output.textContent = `Hello, ${name}! Welcome to the dashboard`;
 });
 
 // Clear output button — already working as a starter example
