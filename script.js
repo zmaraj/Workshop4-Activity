@@ -48,3 +48,11 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+const sub = (a, b)=> a-b;
+subtractBtn.addEventListener("click", ()=>{
+  const a = parseFloat(num1.value) || 0;
+  const b = parseFloat(num2.value) || 0;
+  const result = sub(a, b);
+  calcResult.textContent = `Result: ${result}`;
+  calcOp.textContent = "-";
+})
