@@ -49,6 +49,6 @@ clearBtn.addEventListener("click", () => {
 
 // ── TASKS: code below this line ────────────────────────────
 clearInputBtn.addEventListener("click", () => {
-  nameInput.clear();
+  document.getElementById('nameInput').value = ' ';
   output.textContent = "Output will appear here.";
 });
