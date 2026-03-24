@@ -48,3 +48,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+
+toggleThemeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
