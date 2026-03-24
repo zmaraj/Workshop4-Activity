@@ -48,3 +48,6 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+changeTitleBtn.addEventListener("click", () => {
+  subtitle.textContent = "Built by the dev team.";
+});
