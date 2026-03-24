@@ -48,3 +48,5 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+
+greetBtn.style.backgroundColor = "purple";
