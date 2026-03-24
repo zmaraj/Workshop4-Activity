@@ -48,3 +48,10 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+
+const add = (a, b) => a + b;
+
+addBtn.addEventListener("click", () => {
+  const result = add(Number(num1.value), Number(num2.value));
+  calcResult.textContent = 'Result: ${result}';
+});
