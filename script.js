@@ -48,3 +48,12 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+greetBtn.addEventListener("click", () => {
+if (!nameInput.value.trim()) {
+  output.textContent = "Please enter your name.";
+  output.style.color = "crimson";
+}
+else {
+  output.textContent = 'Hello, ${nameInput.value.trim()}!';
+  output.style.color = "";
+}});
