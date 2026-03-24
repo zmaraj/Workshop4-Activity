@@ -48,3 +48,7 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+uppercaseBtn.addEventListener("click", () => {
+  const name = nameInput.value;
+  output.textContent = name.toUpperCase();
+})
