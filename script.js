@@ -57,4 +57,3 @@ toggleThemeBtn.addEventListener("click", () => {
 changeTitleBtn.addEventListener("click", ()=>{
   title.textContent = "Web Dev Dashboard"
 })
-
