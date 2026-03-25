@@ -48,3 +48,18 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+
+//task 16
+toggleThemeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+//task 1
+changeTitleBtn.addEventListener("click", ()=>{
+  title.textContent = "Web Dev Dashboard"
+})
+
+//task2 
+
+changeTitleBtn.addEventListener("click",()=>{
+  subtitle.textContent = "Modified subtitle"
+})
