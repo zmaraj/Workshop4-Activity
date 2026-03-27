@@ -48,3 +48,13 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+//#6 — Greet button turns purple on hover, back to blue on mouse leave
+//You need two event listeners on greetBtn — one for "mouseover" and one for "mouseout". Each one sets greetBtn.style.background to a different color.
+
+greetBtn.addEventListener("mouseover", () => {
+  greetBtn.style.background = "purple";
+});
+
+greetBtn.addEventListener("mouseout", () => {
+  greetBtn.style.background = "blue";
+});
